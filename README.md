@@ -12,4 +12,4 @@ This programme was written for an automation of T cell receptor cloning with the
 These two scripts were used to perform a coverage downsampling of paired tumor-control whole-genome sequencing (WGS) data. The aim of the overall project was to compare the performance of deep whole-exome sequencing and different depths of WGS to find the best cost-effectiveness tradeoff for cancer diagnostics. The wrapper takes a table with patient IDs and parameters as an input and starts a cluster session where the sambamba-run script is called for each sample.
 
 * _variant_comparison.sh_  
-This script was used once in the same project as the aforementioned sambamba scripts. It created a summary output table for all samples, including the number of called variants (SNVs, indels, structural variants) for the different coverages of WGS and WES data.
+This script was used in the same project as the aforementioned sambamba scripts. It creates a summary output table for all samples, including the number of called variants (SNVs, indels, structural variants) for the different coverages of WGS and WES data.
